@@ -9,3 +9,12 @@
 * The `display()` function displays the elements starting from the top of the stack.
 * The stack follows the **LIFO (Last In, First Out)** principle.
 * Added `peek()` function that will simply display the element that is currently at the top.
+
+### 2. Reversing a String using Stack
+
+* In this program, we're reversing a string using a **Stack**.
+* The Stack stores each character of the string using the `push()` function.
+* The `pop()` function removes and returns the character from the top of the stack.
+* Since a Stack follows **LIFO (Last In, First Out)**, the characters are retrieved in reverse order.
+* The `pop()` function returns `'\0'` if the stack is empty.
+* The reversed string is displayed by repeatedly popping characters from the stack.

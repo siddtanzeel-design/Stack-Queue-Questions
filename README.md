@@ -8,3 +8,4 @@
 * The `pop()` function removes the top element and checks for **Stack Underflow**.
 * The `display()` function displays the elements starting from the top of the stack.
 * The stack follows the **LIFO (Last In, First Out)** principle.
+* Added `peek()` function that will simply display the element that is currently at the top.

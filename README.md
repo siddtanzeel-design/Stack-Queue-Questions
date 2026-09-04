@@ -18,3 +18,12 @@
 * Since a Stack follows **LIFO (Last In, First Out)**, the characters are retrieved in reverse order.
 * The `pop()` function returns `'\0'` if the stack is empty.
 * The reversed string is displayed by repeatedly popping characters from the stack.
+
+### 3. Checking Palindrome using Stack
+
+* In this program, we're checking whether a string is a **palindrome using a Stack**.
+* The original string is stored separately for comparison.
+* Each character of the string is pushed into the Stack.
+* The characters are then popped from the Stack to create the reversed string.
+* Since a Stack follows **LIFO (Last In, First Out)**, the characters are retrieved in reverse order.
+* The original string and reversed string are compared to determine whether the string is a palindrome.

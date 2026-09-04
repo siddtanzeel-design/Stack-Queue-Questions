@@ -39,6 +39,17 @@ public:
         top--;
         return true;
     }
+    bool peek()
+    {
+        if(top == -1)
+        {
+            cout<<"Stack is empty"<<endl;
+            return false;
+        }
+
+        cout<<arr[top]<<endl;
+        return true;
+    }
     void display()
     {
         if(top == -1)
@@ -71,7 +82,8 @@ int main()
         cout<<"\nChoose your Option"<<endl;
         cout<<"1. Insert"<<endl;
         cout<<"2. Delete"<<endl;
-        cout<<"3. Display"<<endl;
+        cout<<"3. Peek"<<endl;
+        cout<<"4. Display"<<endl;
         cin>>choice;
 
         if(choice == 1)
@@ -90,6 +102,11 @@ int main()
                 cout<<"Value Deleted"<<endl;
         }
         else if(choice == 3)
+        {
+            if(s.peek())
+                cout<<"Element at the top"<<endl;
+        }
+        else if(choice == 4)
             s.display();
         else
             cout<<"Invalid Input"<<endl;
@@ -98,6 +115,6 @@ int main()
         cin>>op;
 
     } while(op == 'y' || op == 'Y');
-
+    cout<<"Thank You!";
     return 0;
 }

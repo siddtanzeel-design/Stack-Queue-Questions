@@ -27,3 +27,13 @@
 * The characters are then popped from the Stack to create the reversed string.
 * Since a Stack follows **LIFO (Last In, First Out)**, the characters are retrieved in reverse order.
 * The original string and reversed string are compared to determine whether the string is a palindrome.
+
+### 4. Checking Balanced Parentheses using Stack
+
+* In this program, we're checking whether brackets in a string are **balanced using a Stack**.
+* Opening brackets `(`, `{`, `[` are pushed into the Stack.
+* When a closing bracket `)`, `}`, `]` is found, the top element of the Stack is popped and checked for a matching opening bracket.
+* If the brackets don't match, the string is **not balanced**.
+* If a closing bracket is found when the Stack is empty, the string is also **not balanced**.
+* At the end, the Stack must be empty for the brackets to be balanced.
+* The Stack follows the **LIFO (Last In, First Out)** principle.

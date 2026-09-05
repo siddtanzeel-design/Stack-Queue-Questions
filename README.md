@@ -39,3 +39,6 @@
   * If a closing bracket is found when the Stack is empty, the string is also **not balanced**.
   * At the end, the Stack must be empty for the brackets to be balanced.
   * The Stack follows the **LIFO (Last In, First Out)** principle.
+
+
+## Queue

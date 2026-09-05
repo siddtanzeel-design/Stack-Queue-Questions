@@ -1,5 +1,7 @@
 # Stack-Queue-Questions
 
+->`STACK`
+
 ### 1. Implementing Stack using Array
 
 * In this program, we're implementing a **Stack using an Array**.

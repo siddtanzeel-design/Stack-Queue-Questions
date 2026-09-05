@@ -1,6 +1,6 @@
 # Stack-Queue-Questions
 
-->`STACK`
+##Stack
 
 ### 1. Implementing Stack using Array
 

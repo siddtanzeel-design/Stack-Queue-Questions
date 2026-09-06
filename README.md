@@ -59,7 +59,7 @@
 9. Display `result` as the postfix expression.
 10. Stop.
 
-### 9. Infix to Prefix using Stack
+### 6. Infix to Prefix using Stack
 
 #### Algorithm
 

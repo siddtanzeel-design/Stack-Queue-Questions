@@ -32,13 +32,26 @@
 
 ### 4. Checking Balanced Parentheses using Stack
 
-* In this program, we're checking whether brackets in a string are **balanced using a Stack**.
-* Opening brackets `(`, `{`, `[` are pushed into the Stack.
-* When a closing bracket `)`, `}`, `]` is found, the top element of the Stack is popped and checked for a matching opening bracket.
-* If the brackets don't match, the string is **not balanced**.
-* If a closing bracket is found when the Stack is empty, the string is also **not balanced**.
-* At the end, the Stack must be empty for the brackets to be balanced.
-* The Stack follows the **LIFO (Last In, First Out)** principle.
+#### Algorithm
+
+1. Start.
+2. Read the given expression.
+3. Create an empty Stack.
+4. Scan the expression from left to right.
+5. If the character is an **opening bracket** `(`, `{`, or `[`, push it into the Stack.
+6. If the character is a **closing bracket** `)`, `}`, or `]`:
+
+   * If the Stack is empty, the expression is **not balanced**.
+   * Otherwise, pop the top bracket from the Stack.
+   * Check whether the popped bracket matches the closing bracket.
+   * If it does not match, the expression is **not balanced**.
+7. Continue until the entire expression has been scanned.
+8. After scanning, check the Stack:
+
+   * If the Stack is empty, the expression is **balanced**.
+   * If the Stack is not empty, the expression is **not balanced**.
+9. Stop.
+
 
 ### 5. Infix to Postfix using Stack
 
